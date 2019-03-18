@@ -6,24 +6,24 @@ var game = {
     levels: {
 
         start: {
-            message: "You come across a dark cave",
+            message: "your computer is on fire",
             choices: [
                 {
-                    text: "Enter the cave",
-                    nextLevel: "cave",
+                    text: "call 911",
+                    nextLevel: "hallway",
                 },
 
                 {
-                    text: "Keep on moving",
-                    nextLevel: "field",
+                    text: "Run",
+                    nextLevel: "sidewalk",
                 },
             ]
         },
 
-        cave: {
+        sidewalk: {
             background_image: "fire.gif",
             music: "Final-Fantasy-7-Boss-Battle.mp3",
-            message: "You come across a fire monster or something!",
+            message: "your house burns",
             choices: [
                 {
                     text: "Start over",
@@ -32,8 +32,8 @@ var game = {
             ]
         },
 
-        field: {
-            message: "Some adventurer you are...",
+        hallway: {
+            message: "follow instructions",
             choices: [
                 {
                     text: "Start over",
